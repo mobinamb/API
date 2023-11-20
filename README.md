@@ -13,7 +13,7 @@ Welcome to our Currency Exchange Web Application! This application leverages the
 ## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript
-- **API**: Currency Exchange API
+- **API**: Currency Exchange API (https://www.exchangerate-api.com/)
 
 ## API Integration
 
