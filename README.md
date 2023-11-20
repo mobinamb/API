@@ -39,6 +39,6 @@ To set up this project locally, follow these steps:
 
 ## Contact
 
-- Author: [Mobina Mobaraki]
-- Email: [Mobina Mobaraki]
-- GitHub: [@mobinamb]
+- Author: Mobina Mobaraki
+- Email: mobina.mb96@gmail.com
+- GitHub: @mobinamb
