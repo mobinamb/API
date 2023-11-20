@@ -1,0 +1,135 @@
+/* General Body Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e7eff6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Header Styles */
+header {
+    width: 100%;
+    background-color: #0a3f5e;
+    color: white;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #ade1f9;
+}
+
+/* Main Content Styles */
+.exchange-container {
+    width: 350px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-top: 20px; /* Added margin for spacing */
+}
+
+/* Footer Styles */
+footer {
+    width: 100%;
+    background-color: #0a3f5e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: auto; /* Pushes footer to the bottom */
+}
+
+/* Currency Dropdown and Input Styles */
+.currency-selector select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #d1d1d1;
+    background-color: #f8f8f8;
+    box-sizing: border-box;
+}
+
+/* Button Styles */
+button {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: #0a3f5e;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #083c54;
+}
+
+/* Add Currency Container Styles */
+.add-currency-container {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.add-currency-container input {
+    width: 60%;
+    padding: 10px;
+    margin-right: 10px; /* Space between input and button */
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+}
+
+.add-currency-container button {
+    width: calc(40% - 10px); /* Account for margin */
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #083c54; /* Different color for clarity */
+    color: white;
+    cursor: pointer;
+    margin-top:20px;
+}
+
+.add-currency-container button:hover {
+    background-color: #367c39;
+}
+
+/* Responsive Design */
+@media (max-width: 400px) {
+    .navbar ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .add-currency-container input,
+    .add-currency-container button {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

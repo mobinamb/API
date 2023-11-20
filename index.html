@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Exchange</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header with Navigation -->
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href=index.html>Home</a></li>
+                <li><a href=#contactUs>contact Us</a></li> <!-- this is just easthetics and it is not working-->
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="exchange-container">
+        <h1>Currency Converter</h1>
+        <div class="currency-selector">
+            <select id="currency-from">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AED">USD</option>
+                <option value="AFN">EUR</option>
+                <option value="ALL">GBP</option>
+                <option value="AMD">USD</option>
+                <option value="ANG">EUR</option>
+                <option value="AOA">GBP</option>
+
+                <!-- Add more currencies as needed -->
+            </select>
+            <select id="currency-to">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="GBP">GBP</option>
+                <option value="AED">USD</option>
+                <option value="AFN">EUR</option>
+                <option value="ALL">GBP</option>
+                <option value="AMD">USD</option>
+                <option value="ANG">EUR</option>
+                <option value="AOA">GBP</option>
+                <!-- Add more currencies as needed -->
+            </select>
+        </div>
+        <input type="number" id="amount" placeholder="Amount">
+        <button id="convert">Convert</button>
+
+        <div class="add-currency-container">
+            <input type="text" id="new-currency-code" placeholder="Enter Currency Code (e.g., EUR)">
+            <button id="add-currency">Add Currency</button>
+            <!-- Placeholder for the error message -->
+            <div id="error-message" style="color: red; margin-top: 10px;"></div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>Currency Exchange © 2023</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
